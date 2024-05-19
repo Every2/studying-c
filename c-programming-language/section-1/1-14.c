@@ -14,7 +14,7 @@ main() {
             chars[c - 'a']++;
         }
     }
-    
+
     for (int i = 0; i < 26; ++i) {
         printf("%2c | ", 'a' + i); 
         for (int j = 0; j < chars[i]; ++j) {

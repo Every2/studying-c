@@ -1,4 +1,4 @@
-NAME = c-programming-language/section-1/1-14
+NAME = c-programming-language/section-1/1-15
 
 bin/$(NAME): bin/ $(NAME).c
 	gcc -o bin/a $(NAME).c
