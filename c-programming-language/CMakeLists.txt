@@ -3,4 +3,4 @@ project(c_book C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(c_book section-2/2-2.c)
+add_executable(c_book section-2/2-3.c)
