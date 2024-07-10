@@ -43,8 +43,4 @@ int htoi(char s[]) {
     return n;
 }
 
-int main() {
-    char hexa[] = "0x1A";
-    printf("%d\n", htoi(hexa));
-    return 0;
-}
+

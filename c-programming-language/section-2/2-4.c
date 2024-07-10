@@ -13,11 +13,3 @@ void squeeze(char s[], char n[]) {
         s[j] = '\0';
     }
 }
-
-int main(void) {
-    char s1[] = "hello";
-    char s2[] = "hell";
-    squeeze(s1, s2);
-    printf("%s\n", s1);
-    return 0;
-}
